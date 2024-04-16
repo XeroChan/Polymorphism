@@ -11,7 +11,8 @@ Copy constructor takes a reference to an object of the same class as an argument
 ClassName (ClassName &obj)
 {
   // body_containing_logic
-}```
+}
+```
 
 Just like the default constructor, the C++ compiler also provides an implicit copy constructor if the explicit copy constructor definition is not present. Here, it is to be noted that, unlike the default constructor where the presence of any type of explicit constructor results in the deletion of the implicit default constructor, the implicit copy constructor will always be created by the compiler if there is no explicit copy constructor or explicit move constructor is present.
 
